@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		
+		<style type="text/css">
+			
+			div{
+				color: red;
+				font-size: 20px;
+			}
+			.change{
+				background: pink;
+			}
+			
+			.change1{
+				background: white;
+				
+			}
+			
+			
+		</style>
+
+	</head>
+	<body>
+		<div id="div_02" style="width: 300px; border: 1px solid blue;">
+			
+		</div>
+		
+		
+		我是小汤汤啊<br />
+		
+		<span>我真的是小汤汤</span><br />
+	
+		<div id="div_01">
+			好吧其实我是吴彦祖<br />
+			吴彦祖请登录
+		</div>	
+		<form action="" method="post">
+			用户名：<input type="text" name="uName" id="uName" value="" /><br />
+			密   &nbsp;&nbsp; 码：<input type="password" name="uPwd" id="uPwd" value="" />
+			<br /><input type="submit" value="提交" />
+		</form>
+		
+		<script type="text/javascript">
+			
+			window.onload=function(){
+				
+				document.getElementById('div_02').onmouseover=function(){
+					this.className='change';
+					console.log('我是小汤汤');
+					console.log('我是小汤汤');
+					console.log('我是小汤汤');
+					console.log('我是小汤汤');
+				}
+				
+				
+				document.getElementById('div_02').onmouseout=function(){
+					
+				}
+				
+			}
+		</script>
+		
+	
+	</body>
+</html>
